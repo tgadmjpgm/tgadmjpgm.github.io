@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/* 初期スタイル調整 */
+
+body {
+    margin: 0;
+    background: #f4f2f0;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.maincontents {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+}
+
+.header p {
+    font-size: 25px;
+    margin: 0;
+    padding: 15px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #000;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.globalNav {
+    width: 100%;
+    margin-top: 5px;
+    background: #fff;
+}
+
+.globalNav ul {
+    padding: 10px 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.navItem {
+    border-left: 1px solid #fff;
+    text-align: center;
+    flex: 0 1 22%;
+}
+.navItem:last-of-type {
+    border-right: 1px solid #fff;
+}
+
+.navItem a {
+    display: block;
+    font-size: 16px;
+    line-height: 1;
+    color: #000;
+    text-decoration: none; 
+}
+
+.col-image {
+    margin: 0;
+}
+
+.col-image img {
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+    vertical-align: bottom;
+}
+
+/* contactページのスタイル */
+.contact-ul li .photo img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.contact-ul {
+    max-width: 100%;
+    text-align: center;
+    margin-right: 10%;
+
+}
+
+.contact-ul li {
+    display: flex;
+    align-items: center;
+}
+
+
+.contact-ul li .photo{
+    width: 50%;
+}
+.contact-ul li .txt {
+    width: 50%;
+}
+
+.contact-ul li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+.contact-ul li:nth-child(even) .txt {
+    padding-right: auto;
+}
+
+.contact-ul li:nth-child(odd) .txt {
+    padding-left: auto;
+}
+
+/* plofileページのスタイル */
+.plofile-image {
+    margin: 0;
+}
+
+.plofile-image img {
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.plofile-txt p{
+    margin-left: 10%;
+}
+
+.programmer-txt p{
+    text-align: center;
+}
+
+/* worksページのスタイル */
